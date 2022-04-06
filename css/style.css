@@ -1,0 +1,276 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+}
+body{
+    font: 1.6rem ;
+    font-family:'Open Sans' ,sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    
+
+}
+h1,h2,h3,p,ul,li,fieldset{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+button{
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+*{
+    box-sizing: border-box;
+}  
+
+/*fin de reset*/
+
+/*main*/
+
+main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%,rgba(0, 0, 0, 0.5) 50%),url(../asset/arbre.jpg) no-repeat fixed center center/cover  ;
+    height: 109vh;
+}
+nav{
+    width: 120rem;
+    height: 7.5rem;
+    margin:auto;
+}
+.logo{
+    color: #ff7200;
+    font-size: 3.5rem;
+    font-family: Arial;
+    padding-left: 2rem;
+    float: left;
+    padding-top: 1rem;
+}
+
+main nav ul {
+
+        display: flex;
+        float: left;
+        justify-content: center;
+        cursor: pointer;
+        align-items: center;
+}
+main nav ul li{
+    margin-left:6.2rem ;
+    margin-top: 2.7rem;
+    font-size: 2rem;
+}
+
+main nav ul li a{
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    color: #fff;
+}
+main nav ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 33rem;
+    float: right;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 20rem;
+    height: 4rem;
+    background: transparent;
+    border: 0.1rem solid #ff7200;
+    margin-top: 1.3rem;
+    font-size: 1.6rem;
+    float: left;
+    padding: 1.0rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.btn{
+    width: 10rem;
+    height: 4rem;
+    background: #ff7200;
+    border: 0.2rem solid #ff7200;
+    margin-top: 1.3rem;
+    color: #fff;
+    font-size: 1.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 120rem;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 2rem;
+    padding-bottom: 2.5rem;
+    font-family: Arial;
+    letter-spacing: 0.12rem;
+    line-height: 3rem;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 5rem;
+    padding-left: 2rem;
+    margin-top: 9%;
+    letter-spacing: 0.2rem;
+}
+
+.content .cn{
+    width: 16rem;
+    height: 4rem;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 6.5rem;
+}
+
+.form{
+    width: 25rem;
+    height: 38rem;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.8) 50%);
+    position: absolute;
+    top: 6rem;
+    left: 87rem;
+    transform: translate(0%,-5%);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.form h2{
+    width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 2.2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.form input:nth-child(1), .form input:nth-child(2){
+    width: 20rem;
+    height: 3.5rem;
+    background: transparent;
+    border-bottom: 0.1rem solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    margin-top: 3rem;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 20rem;
+    height: 4rem;
+    background: #ff7200;
+    border: none;
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.4s ease;
+    color: #000;
+    font-weight: bold;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+
+.form .link{
+    font-size: 1.7rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+}

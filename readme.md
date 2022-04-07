@@ -26,3 +26,6 @@
 ### le DOM n'est pas initialisé 
 ### il est préférable de déclarer les variables avec let au lieu de var
 ### Fonction fléchés
+
+
+#https://redjan29.github.io/Website/

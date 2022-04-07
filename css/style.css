@@ -83,11 +83,11 @@ main nav ul li a:hover{
 }
 
 .srch{
-    font-family: 'Times New Roman';
     width: 20rem;
     height: 4rem;
     background: transparent;
     border: 0.1rem solid #ff7200;
+    color: #fafafa;
     margin-top: 1.3rem;
     font-size: 1.6rem;
     float: left;

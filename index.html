@@ -34,8 +34,8 @@
             <fieldset>
                     <legend>s'identifier</legend>
                 
-                 <form action="form_objet.html" method="get">
-                         <input type="search" class="srch" id="srch" name="srch" placeholder="Type to Text" autofocus  aria-required="true">
+                    <form action="https://www.google.com/search"  name="recherche" method="get">
+                         <input type="search" class="srch" name="srch" id="recherche" placeholder="Type to Text" autofocus  aria-required="true" aria-labelledby="recherche">
                          <input type="submit" class="btn" value="Search">
                </form>  
             </fieldset>
@@ -54,13 +54,15 @@
                 
                     
                     <div class="form" role="form" > 
-                        <h2>Login Here</h2>
+                        <h2 class="warning">Login Here</h2>
                         
                          <form action="form_objet.html" method="get">
-                               <input type="email" name="email" placeholder="Enter Email Here">
-                               <input type="password" name="password" placeholder="Enter Password Here">
+                               <input type="email" name="email" id="email" placeholder="Enter Email Here" aria-required="true" aria-labelledby="email">
+                               <input type="password" name="password" id="password" placeholder="Enter Password Here" aria-required="true" aria-labelledby="password">
                                <input type="submit" class="btnn" value="Login">
                           </form>
+
+
                                 <p class="link">Don't have an account<br>
                                 <a href="#" class="up">Sign up </a> here</p>
                                 <p class="liw">Log in with</p>
@@ -80,9 +82,9 @@
     </main>
 
     <footer> <p>© Redjane Rajabaly - All rights reserved for educational purposes only</p></footer>
+
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-    
-<script src="app.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 
 
